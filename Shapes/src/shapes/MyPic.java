@@ -10,12 +10,16 @@ public class MyPic {
 		Line l1 = new Line(0,205,400,205);
 		Circle c2 = new Circle(200,200,50);
 		Line l2 = new Line(0,200,400,200);
+		Rectangle r2 = new Rectangle(210, 100, 100, 100);
+		Triangle t2 = new Triangle(210, 100, 310, 100, 260, 50);
 		pic.add(c1);
 		pic.add(r1);
 		pic.add(t1);
 		pic.add(l1);
 		pic.add(c2);
 		pic.add(l2);
+		pic.add(r2);
+		pic.add(t2);
 		pic.draw();	
 		int anar[]= new int[5];
 		System.out.println(anar[0]);
